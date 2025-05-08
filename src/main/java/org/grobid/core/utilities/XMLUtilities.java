@@ -360,7 +360,7 @@ public class XMLUtilities {
         // Return pretty print xml string
         StringWriter stringWriter = new StringWriter();
         transformer.transform(new DOMSource(document), new StreamResult(stringWriter));
-        
+
         // write result to file
         FileUtils.writeStringToFile(outputFile, stringWriter.toString(), "UTF-8");
 
@@ -501,7 +501,7 @@ public class XMLUtilities {
                     //System.out.println("-----------------");
                     sent = sent.replace("\n", " ");
                     sent = sent.replaceAll("( )+", " ");
-                
+
                     //Element sentenceElement = doc.createElement("s");                        
                     //sentenceElement.setTextContent(sent);
                     //newNodes.add(sentenceElement);
@@ -553,7 +553,7 @@ public class XMLUtilities {
      * @param args Command line arguments.
      */
     public static void main(String[] args) {
-       
+
         // we are expecting one argument, absolute path to the TEICorpus document
 
         if (args.length != 1) {

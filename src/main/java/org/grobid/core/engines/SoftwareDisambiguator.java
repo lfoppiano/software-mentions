@@ -11,7 +11,6 @@ import org.grobid.core.data.BiblioItem;
 import org.grobid.core.document.Document;
 import org.grobid.core.document.DocumentPiece;
 import org.grobid.core.document.DocumentSource;
-import org.grobid.core.document.xml.XmlBuilderUtils;
 import org.grobid.core.engines.config.GrobidAnalysisConfig;
 import org.grobid.core.engines.label.SoftwareTaggingLabels;
 import org.grobid.core.engines.label.SegmentationLabels;
@@ -71,7 +70,6 @@ import org.apache.http.conn.HttpHostConnectException;
 import org.apache.commons.lang3.tuple.Pair;
 
 import static org.apache.commons.lang3.StringUtils.*;
-import static org.grobid.core.document.xml.XmlBuilderUtils.teiElement;
 
 /**
  * Software entity disambiguator. Once software mentions are recognized and grouped
@@ -319,7 +317,7 @@ public class SoftwareDisambiguator {
                     lang = langNode.textValue();
                 }
             }
-            
+
             JsonNode entitiesNode = root.findPath("entities");
             if ((entitiesNode != null) && (!entitiesNode.isMissingNode())) {
                 // we have an array of entity
@@ -353,7 +351,7 @@ public class SoftwareDisambiguator {
                     }
 
                     // domains, e.g. "domains" : [ "Biology", "Engineering" ]
-                    
+
                     // statements
                     Map<String, List<String>> statements = new TreeMap<String,List<String>>();
                     JsonNode statementsNode = entityNode.findPath("statements");
@@ -409,7 +407,7 @@ public class SoftwareDisambiguator {
                         || statements.get("P1324") != null || statements.get("P277") != null || statements.get("P348") != null) ) {
                         toBeFiltered = false;
                     }
-                    
+
                     // completely hacky for the moment and to be reviewed
                     if ( toBeFiltered && (statements != null) && (statements.get("P856") != null) ) {
                         List<String> p856 = statements.get("P856");
