@@ -127,11 +127,11 @@ public class SoftwareTypeTrainer extends AbstractTrainer {
                 System.out.println("evaluation data path: " + evalOutputPath.getPath());
 
             // the file for writing the training data
-            writerTraining = new OutputStreamWriter(new FileOutputStream(trainingOutputPath), "UTF8");
+            writerTraining = new OutputStreamWriter(new FileOutputStream(trainingOutputPath), UTF_8);
 
             // the file for writing the evaluation data
             if (evalOutputPath != null)
-                writerEvaluation = new OutputStreamWriter(new FileOutputStream(evalOutputPath), "UTF8");
+                writerEvaluation = new OutputStreamWriter(new FileOutputStream(evalOutputPath), UTF_8);
 
             // the active writer
             Writer writer = null;
