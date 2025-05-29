@@ -98,7 +98,7 @@ public class SoftwareAnnotationSaxHandler extends DefaultHandler {
                     labeledDoc.add(labeled);
                     labeledSoftwareMarkers.add(hasSoftware);
                 }
-            } else if (qName.equals("TEI")) {
+            } else if (qName.equalsIgnoreCase("TEI")) {
                 allLabeled.add(labeledDoc);
                 allLabeledSoftwareMarkers.add(labeledSoftwareMarkers);
             }
@@ -171,7 +171,7 @@ public class SoftwareAnnotationSaxHandler extends DefaultHandler {
                             }
                         }
                     }
-                } else if (qName.equals("teiCorpus")) {
+                } else if (qName.equalsIgnoreCase("teiCorpus")) {
                     allLabeled = new ArrayList<>();
                     allLabeledSoftwareMarkers = new ArrayList<>();
                     hasSoftware = false;
@@ -181,7 +181,7 @@ public class SoftwareAnnotationSaxHandler extends DefaultHandler {
                 } else if (qName.equals("s") && sentenceLevel) {
                     labeled = new ArrayList<>();
                     hasSoftware = false;
-                } else if (qName.equals("tei") || qName.equals("TEI")) {
+                } else if (qName.equalsIgnoreCase("tei")) {
                     labeledDoc = new ArrayList<>();
                     labeledSoftwareMarkers = new ArrayList<>();
                     accumulator = new StringBuffer();
