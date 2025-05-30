@@ -1,211 +1,211 @@
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" version="4.0.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>Softcite annotated corpus</title>
-<respStmt>
-<resp>Principal Investigator</resp>
-<name>James Howison</name>
-</respStmt>
-<respStmt xml:id="curator">
-<resp>curator</resp>
-<name>James Howison, Cai Fan Du, Patrice Lopez</name>
-</respStmt>
-<respStmt xml:id="annotator0">
-<resp>annotator</resp>
-<name>ANONYMIZED</name>
-</respStmt>
-<respStmt xml:id="annotator1">
-<resp>annotator</resp>
-<name>ANONYMIZED</name>
-</respStmt>
-<respStmt xml:id="annotator2">
-<resp>annotator</resp>
-<name>ANONYMIZED</name>
-</respStmt>
-<respStmt xml:id="annotator3">
-<resp>annotator</resp>
-<name>ANONYMIZED</name>
-</respStmt>
-<respStmt xml:id="annotator4">
-<resp>annotator</resp>
-<name>ANONYMIZED</name>
-</respStmt>
-<respStmt xml:id="annotator5">
-<resp>annotator</resp>
-<name>ANONYMIZED</name>
-</respStmt>
-<respStmt xml:id="annotator6">
-<resp>annotator</resp>
-<name>ANONYMIZED</name>
-</respStmt>
-<respStmt xml:id="annotator7">
-<resp>annotator</resp>
-<name>ANONYMIZED</name>
-</respStmt>
-<respStmt xml:id="annotator8">
-<resp>annotator</resp>
-<name>ANONYMIZED</name>
-</respStmt>
-<respStmt xml:id="annotator9">
-<resp>annotator</resp>
-<name>ANONYMIZED</name>
-</respStmt>
-<respStmt xml:id="annotator10">
-<resp>annotator</resp>
-<name>ANONYMIZED</name>
-</respStmt>
-<respStmt xml:id="annotator11">
-<resp>annotator</resp>
-<name>ANONYMIZED</name>
-</respStmt>
-<respStmt xml:id="annotator12">
-<resp>annotator</resp>
-<name>ANONYMIZED</name>
-</respStmt>
-<respStmt xml:id="annotator13">
-<resp>annotator</resp>
-<name>ANONYMIZED</name>
-</respStmt>
-<respStmt xml:id="annotator14">
-<resp>annotator</resp>
-<name>ANONYMIZED</name>
-</respStmt>
-<respStmt xml:id="annotator15">
-<resp>annotator</resp>
-<name>ANONYMIZED</name>
-</respStmt>
-<respStmt xml:id="annotator16">
-<resp>annotator</resp>
-<name>ANONYMIZED</name>
-</respStmt>
-<respStmt xml:id="annotator17">
-<resp>annotator</resp>
-<name>ANONYMIZED</name>
-</respStmt>
-<respStmt xml:id="annotator18">
-<resp>annotator</resp>
-<name>ANONYMIZED</name>
-</respStmt>
-<respStmt xml:id="annotator19">
-<resp>annotator</resp>
-<name>ANONYMIZED</name>
-</respStmt>
-<respStmt xml:id="annotator20">
-<resp>annotator</resp>
-<name>ANONYMIZED</name>
-</respStmt>
-<respStmt xml:id="annotator21">
-<resp>annotator</resp>
-<name>ANONYMIZED</name>
-</respStmt>
-<respStmt xml:id="annotator22">
-<resp>annotator</resp>
-<name>ANONYMIZED</name>
-</respStmt>
-<respStmt xml:id="annotator23">
-<resp>annotator</resp>
-<name>ANONYMIZED</name>
-</respStmt>
-<respStmt xml:id="annotator24">
-<resp>annotator</resp>
-<name>ANONYMIZED</name>
-</respStmt>
-<respStmt xml:id="annotator25">
-<resp>annotator</resp>
-<name>ANONYMIZED</name>
-</respStmt>
-<respStmt xml:id="annotator26">
-<resp>annotator</resp>
-<name>ANONYMIZED</name>
-</respStmt>
-<respStmt xml:id="annotator27">
-<resp>annotator</resp>
-<name>ANONYMIZED</name>
-</respStmt>
-<respStmt xml:id="annotator28">
-<resp>annotator</resp>
-<name>ANONYMIZED</name>
-</respStmt>
-<respStmt xml:id="annotator29">
-<resp>annotator</resp>
-<name>ANONYMIZED</name>
-</respStmt>
-<respStmt xml:id="annotator30">
-<resp>annotator</resp>
-<name>ANONYMIZED</name>
-</respStmt>
-<respStmt xml:id="annotator31">
-<resp>annotator</resp>
-<name>ANONYMIZED</name>
-</respStmt>
-<respStmt xml:id="annotator32">
-<resp>annotator</resp>
-<name>ANONYMIZED</name>
-</respStmt>
-<respStmt xml:id="annotator33">
-<resp>annotator</resp>
-<name>ANONYMIZED</name>
-</respStmt>
-<respStmt xml:id="annotator34">
-<resp>annotator</resp>
-<name>ANONYMIZED</name>
-</respStmt>
-<respStmt xml:id="annotator35">
-<resp>annotator</resp>
-<name>ANONYMIZED</name>
-</respStmt>
-<respStmt xml:id="annotator36">
-<resp>annotator</resp>
-<name>ANONYMIZED</name>
-</respStmt>
-</titleStmt>
-<notesStmt>
-<note>The Softcite dataset is a gold standard corpus of manually annotated software mentions from academic PDFs.</note>
-<note>This corpus file contains one TEI entry for every scholar publication, including or not manual annotations. For scholar publications containing annotations, each paragraph containing at least one manually annotated software mention is encoded under the TEI body element. All the manual annotations under p elements (paragraph) have been further validated or corrected by a curator to reach a final decision.</note>
-</notesStmt>
-<publicationStmt>
-<publisher>Howison Lab, University of Texas at Austin, School of Information</publisher>
-<date when="2022"/>
-<availability status="free">
-<licence target="https://creativecommons.org/licenses/by/4.0/">
-<p>Attribution 4.0 International (CC BY 4.0)</p>
-</licence>
-</availability>
-</publicationStmt>
-<sourceDesc>
-<bibl>Softcite corpus, version 1.0.0, 2022</bibl>
-</sourceDesc>
-</fileDesc>
-<encodingDesc>
-<appInfo>
-<application ident="GROBID" version="0.5.6-SNAPSHOT" when="2019-07-14T13:21+0000">
-<desc>A machine learning software for extracting information from scholarly documents</desc>
-<ref target="https://github.com/kermitt2/grobid"/>
-</application>
-<application ident="GROBID-SOFTWARE-MENTIONS" version="0.6.0-SNAPSHOT" when="2019-11-21T14:59+0000">
-<desc>A GROBID module to recognize in textual documents and PDF any mentions of software</desc>
-<ref target="https://github.com/ourresearch/software-mentions"/>
-</application>
-</appInfo>
-<classDecl>
-<taxonomy>
-<category xml:id="unique_annotator">
-<catDesc>Document originally analyzed by one annotator</catDesc>
-</category>
-<category xml:id="multiple_annotators">
-<catDesc>Document originally analyzed by more than one annotator</catDesc>
-</category>
-<category xml:id="with_reconciliation">
-<catDesc>Document analyzed by one or more annotators with review by the curator team</catDesc>
-</category>
-<category xml:id="with_reconciliation_and_scripts">
-<catDesc>Document analyzed by one or more annotators with review by the curator team, combined with additional corrections driven by automated consistency checks</catDesc>
-</category>
-</taxonomy>
-</classDecl>
-</encodingDesc>
-</teiHeader>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Softcite annotated corpus</title>
+        <respStmt>
+          <resp>Principal Investigator</resp>
+          <name>James Howison</name>
+        </respStmt>
+        <respStmt xml:id="curator">
+          <resp>curator</resp>
+          <name>James Howison, Cai Fan Du, Patrice Lopez</name>
+        </respStmt>
+        <respStmt xml:id="annotator0">
+          <resp>annotator</resp>
+          <name>ANONYMIZED</name>
+        </respStmt>
+        <respStmt xml:id="annotator1">
+          <resp>annotator</resp>
+          <name>ANONYMIZED</name>
+        </respStmt>
+        <respStmt xml:id="annotator2">
+          <resp>annotator</resp>
+          <name>ANONYMIZED</name>
+        </respStmt>
+        <respStmt xml:id="annotator3">
+          <resp>annotator</resp>
+          <name>ANONYMIZED</name>
+        </respStmt>
+        <respStmt xml:id="annotator4">
+          <resp>annotator</resp>
+          <name>ANONYMIZED</name>
+        </respStmt>
+        <respStmt xml:id="annotator5">
+          <resp>annotator</resp>
+          <name>ANONYMIZED</name>
+        </respStmt>
+        <respStmt xml:id="annotator6">
+          <resp>annotator</resp>
+          <name>ANONYMIZED</name>
+        </respStmt>
+        <respStmt xml:id="annotator7">
+          <resp>annotator</resp>
+          <name>ANONYMIZED</name>
+        </respStmt>
+        <respStmt xml:id="annotator8">
+          <resp>annotator</resp>
+          <name>ANONYMIZED</name>
+        </respStmt>
+        <respStmt xml:id="annotator9">
+          <resp>annotator</resp>
+          <name>ANONYMIZED</name>
+        </respStmt>
+        <respStmt xml:id="annotator10">
+          <resp>annotator</resp>
+          <name>ANONYMIZED</name>
+        </respStmt>
+        <respStmt xml:id="annotator11">
+          <resp>annotator</resp>
+          <name>ANONYMIZED</name>
+        </respStmt>
+        <respStmt xml:id="annotator12">
+          <resp>annotator</resp>
+          <name>ANONYMIZED</name>
+        </respStmt>
+        <respStmt xml:id="annotator13">
+          <resp>annotator</resp>
+          <name>ANONYMIZED</name>
+        </respStmt>
+        <respStmt xml:id="annotator14">
+          <resp>annotator</resp>
+          <name>ANONYMIZED</name>
+        </respStmt>
+        <respStmt xml:id="annotator15">
+          <resp>annotator</resp>
+          <name>ANONYMIZED</name>
+        </respStmt>
+        <respStmt xml:id="annotator16">
+          <resp>annotator</resp>
+          <name>ANONYMIZED</name>
+        </respStmt>
+        <respStmt xml:id="annotator17">
+          <resp>annotator</resp>
+          <name>ANONYMIZED</name>
+        </respStmt>
+        <respStmt xml:id="annotator18">
+          <resp>annotator</resp>
+          <name>ANONYMIZED</name>
+        </respStmt>
+        <respStmt xml:id="annotator19">
+          <resp>annotator</resp>
+          <name>ANONYMIZED</name>
+        </respStmt>
+        <respStmt xml:id="annotator20">
+          <resp>annotator</resp>
+          <name>ANONYMIZED</name>
+        </respStmt>
+        <respStmt xml:id="annotator21">
+          <resp>annotator</resp>
+          <name>ANONYMIZED</name>
+        </respStmt>
+        <respStmt xml:id="annotator22">
+          <resp>annotator</resp>
+          <name>ANONYMIZED</name>
+        </respStmt>
+        <respStmt xml:id="annotator23">
+          <resp>annotator</resp>
+          <name>ANONYMIZED</name>
+        </respStmt>
+        <respStmt xml:id="annotator24">
+          <resp>annotator</resp>
+          <name>ANONYMIZED</name>
+        </respStmt>
+        <respStmt xml:id="annotator25">
+          <resp>annotator</resp>
+          <name>ANONYMIZED</name>
+        </respStmt>
+        <respStmt xml:id="annotator26">
+          <resp>annotator</resp>
+          <name>ANONYMIZED</name>
+        </respStmt>
+        <respStmt xml:id="annotator27">
+          <resp>annotator</resp>
+          <name>ANONYMIZED</name>
+        </respStmt>
+        <respStmt xml:id="annotator28">
+          <resp>annotator</resp>
+          <name>ANONYMIZED</name>
+        </respStmt>
+        <respStmt xml:id="annotator29">
+          <resp>annotator</resp>
+          <name>ANONYMIZED</name>
+        </respStmt>
+        <respStmt xml:id="annotator30">
+          <resp>annotator</resp>
+          <name>ANONYMIZED</name>
+        </respStmt>
+        <respStmt xml:id="annotator31">
+          <resp>annotator</resp>
+          <name>ANONYMIZED</name>
+        </respStmt>
+        <respStmt xml:id="annotator32">
+          <resp>annotator</resp>
+          <name>ANONYMIZED</name>
+        </respStmt>
+        <respStmt xml:id="annotator33">
+          <resp>annotator</resp>
+          <name>ANONYMIZED</name>
+        </respStmt>
+        <respStmt xml:id="annotator34">
+          <resp>annotator</resp>
+          <name>ANONYMIZED</name>
+        </respStmt>
+        <respStmt xml:id="annotator35">
+          <resp>annotator</resp>
+          <name>ANONYMIZED</name>
+        </respStmt>
+        <respStmt xml:id="annotator36">
+          <resp>annotator</resp>
+          <name>ANONYMIZED</name>
+        </respStmt>
+      </titleStmt>
+      <notesStmt>
+        <note>The Softcite dataset is a gold standard corpus of manually annotated software mentions from academic PDFs.</note>
+        <note>This corpus file contains one TEI entry for every scholar publication, including or not manual annotations. For scholar publications containing annotations, each paragraph containing at least one manually annotated software mention is encoded under the TEI body element. All the manual annotations under p elements (paragraph) have been further validated or corrected by a curator to reach a final decision.</note>
+      </notesStmt>
+      <publicationStmt>
+        <publisher>Howison Lab, University of Texas at Austin, School of Information</publisher>
+        <date when="2022"/>
+        <availability status="free">
+          <licence target="https://creativecommons.org/licenses/by/4.0/">
+            <p>Attribution 4.0 International (CC BY 4.0)</p>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Softcite corpus, version 1.0.0, 2022</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="GROBID" version="0.5.6-SNAPSHOT" when="2019-07-14T13:21+0000">
+          <desc>A machine learning software for extracting information from scholarly documents</desc>
+          <ref target="https://github.com/kermitt2/grobid"/>
+        </application>
+        <application ident="GROBID-SOFTWARE-MENTIONS" version="0.6.0-SNAPSHOT" when="2019-11-21T14:59+0000">
+          <desc>A GROBID module to recognize in textual documents and PDF any mentions of software</desc>
+          <ref target="https://github.com/ourresearch/software-mentions"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy>
+          <category xml:id="unique_annotator">
+            <catDesc>Document originally analyzed by one annotator</catDesc>
+          </category>
+          <category xml:id="multiple_annotators">
+            <catDesc>Document originally analyzed by more than one annotator</catDesc>
+          </category>
+          <category xml:id="with_reconciliation">
+            <catDesc>Document analyzed by one or more annotators with review by the curator team</catDesc>
+          </category>
+          <category xml:id="with_reconciliation_and_scripts">
+            <catDesc>Document analyzed by one or more annotators with review by the curator team, combined with additional corrections driven by automated consistency checks</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+  </teiHeader>
 <tei>
 <teiHeader>
 <fileDesc id="f82833909"/>
@@ -554,10 +554,8 @@
 </encodingDesc>
 </teiHeader>
 <text lang="en">
-<body>
 <p>Information regarding authors, publication year, country, sample (number of participants, age, gender), study design (cross-sectional/prospective), measurement tools (i.e., PA and social support measures), reliability of the measures, parental gender, and reported effect sizes, were abstracted onto a Word document. Once the coded data was entered, the file was imported into the <rs type="software" id="s1">Comprehensive Meta-Analysis</rs> version <rs type="version" corresp="s1">2</rs> program for further analyses [27].</p>
 <p>Both fixed and random effects models were used to determine the overall effect sizes for both uncorrected and corrected effect sizes. However, only corrected effect sizes from the random effects model will be discussed. The strength of the correlation was categorized based on Cohen's recommendations [32]. According to these guidelines, a correlation of .09 or less was considered as a null effect, .10 a small effect, .30 a medium effect, and .50 a large effect. In addition to the overall effect sizes, 95% confidence intervals were calculated. To determine heterogeneity among the effect sizes, a Q-statistic and I 2 was computed. The Q-statistic identifies whether the observed variance in effect sizes is no greater than that expected by sampling error alone, whereas the I 2 denotes the dispersion. For the purposes of this study, I 2 values of 25 were categorized as having a low dispersal, 50 as a moderate dispersal, and 75 as a high dispersal. Moderator analyses investigating the effects of child's developmental age, study design, parental gender, measurement of child PA, and quality rating were performed using the corrected r's with fixed and random effects models. A minimum of 4 studies was required in each moderator analysis to deem it as a valid moderator. To identify the correlations between the intergenerational relationships between parent and child, separate analyses were used to examine whether the parents' gender moderated boys' and girls' PA. To assess the extent of publication bias in our samples, Rosenthal's classic fail-safe N [33] and Duval and Tweedie's Trim and Fill procedures [34,35] were conducted. All data was analyzed in February 2013 using <rs type="software">Comprehensive Meta-Analysis</rs>.</p>
-</body>
 </text>
 </tei>
 <tei>
@@ -1058,10 +1056,8 @@
 </encodingDesc>
 </teiHeader>
 <text lang="en">
-<body>
 <p>The recommendations are considered for the application of CMR in clinical routine in adult patients. For some applications, quantification is considered as providing added information but is not mandatory (e.g., perfusion), whereas for others quantification is required for all clinical reports (e.g., T2* assessment in iron overload). In general, the intention of this Task Force is to describe the scenarios in which quantitative analysis should be performed and how it is performed. Quantification itself is a moving target as artificial intelligence approaches to quantification are presently being instituted within <rs type="software">CMR</rs> analysis software programs and will impact techniques in this arena in the future. The recommendations respect societal recommendations for structured reporting of cardiovascular imaging studies in general (ACCF / ACR / AHA / ASE / ASNC / HRS / NASCI / RSNA / SAIP / SCAI / SCCT / SCMR) [2] and specifically for CMR studies (SCMR) [3]. The recommendations do not supersede clinical judgment regarding the contents of individual interpretation of imaging studies. The Task Force made every effort to avoid conflicts of interest and, where present, to disclose potential conflicts.</p>
 <p>2. Post-processing software with regulatory approval for use in patients, ideally providing the following tools: a) Full DICOM send/retrieve functionality, network connection with local <rs type="software">Picture Archiving and Communication System (PACS)</rs> or server solution with compliant patient security properties b) View all short-axis cines as movies in a single display, zoom, pan and change contrast for single images as well as image series c) Perform endocardial and epicardial contour tracings on cines d) Correct for atrioventricular annular location from the long-axis slice onto the most basal left ventricular (LV) short-axis location in contour tracings e) Cross-referencing of structures for confirmation of slice position and anatomy f) Simultaneously view cine, late gadolinium enhancement (LGE) and/or perfusion images from the same location g) Simultaneously view short-and long-axis images of the same region h) Simultaneously view images of the approximate same location on the current and prior study for serial studies i) Perform quantitative signal intensity (SI) and derived analyses j) Perform standardized segmentation of the myocardium according to the segment model of the American Heart Association (AHA) [5] k) Measure flow velocities and flow volumes l) Manually correct or enter heart rate, blood pressure, height, weight, body surface area m) Calculate volumes in stacked or 3D datasets with minimal user interaction, including and excluding trabecular tissue and papillary muscles from the LV volume [6] n) Document important findings in screenshots for the report o) For evaluation of angiography the software ideally provides the following tools: i) 3D multiplanar and maximum intensity projection (MIP) capabilities ii) Volume rendering and surface shaded reconstructions optional for reporting but not mandatory for quantitative analysis iii) Measurement of distances and areas in 3D-MR angiography (MRA) images iv) MIP reconstruction based on nonsubtracted or subtracted 3D-MRA datasets v) Multiplanar reformatting (MPR)</p>
-</body>
 </text>
 </tei>
 <tei>
