@@ -2108,7 +2108,7 @@ public class SoftwareParser extends AbstractParser {
 
                 // conservative check, minimal well-formedness of the content for URL
                 if (clusterLabel.equals(SoftwareTaggingLabels.SOFTWARE_URL)) {
-                    if (SoftwareAnalyzer.DELIMITERS.indexOf(clusterContent) != -1 ||
+                    if (SoftwareAnalyzer.DELIMITERS.contains(clusterContent) ||
                         SoftwareLexicon.getInstance().isEnglishStopword(clusterContent) ||
                         FeatureFactory.getInstance().test_number(clusterContent) ||
                         clusterContent.replace("\n", "").equals("//")) {
