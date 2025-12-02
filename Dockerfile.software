@@ -2,7 +2,7 @@
 # build builder image
 # -------------------
 
-FROM eclipse-temurin:17.0.15_6-jre AS builder
+FROM eclipse-temurin:17.0.15_6-jdk AS builder
 
 USER root
 
