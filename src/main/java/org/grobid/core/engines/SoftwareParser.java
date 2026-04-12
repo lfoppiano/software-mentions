@@ -341,7 +341,7 @@ public class SoftwareParser extends AbstractParser {
             entities = SoftwareContextClassifier.getInstance(softwareConfiguration).classifyDocumentContexts(entities);
 
         } catch (Exception e) {
-            throw new GrobidException("An exception occured while running Grobid.", e);
+            throw new GrobidException("An exception occurred while running Grobid.", e);
         }
 
         return entities;
@@ -772,7 +772,7 @@ public class SoftwareParser extends AbstractParser {
                     }
                 } catch (Exception e) {
                     throw new GrobidException(
-                        "An exception occured while running consolidation on bibliographical references.", e);
+                        "An exception occurred while running consolidation on bibliographical references.", e);
                 }
 
                 // propagate the bib. ref. to the entities corresponding to the same software name without bib. ref.
@@ -1491,7 +1491,7 @@ public class SoftwareParser extends AbstractParser {
                     String pathTEI = outputDirectory + "/" + file.getName().substring(0, file.getName().length() - 4) + ".training.tei.xml";
                     createTraining(file.getAbsolutePath(), pathTEI, n);
                 } catch (final Exception exp) {
-                    logger.error("An error occured while processing the following pdf: "
+                    logger.error("An error occurred while processing the following pdf: "
                         + file.getPath() + ": " + exp);
                 }
                 if (ind != -1)
@@ -1500,7 +1500,7 @@ public class SoftwareParser extends AbstractParser {
 
             return refFiles.length;
         } catch (final Exception exp) {
-            throw new GrobidException("An exception occured while running Grobid batch.", exp);
+            throw new GrobidException("An exception occurred while running Grobid batch.", exp);
         }
     }
 
@@ -1821,7 +1821,7 @@ public class SoftwareParser extends AbstractParser {
                 isSoftwarePattern = false;
             }
         } catch (Exception e) {
-            throw new GrobidException("An exception occured while running Grobid.", e);
+            throw new GrobidException("An exception occurred while running Grobid.", e);
         }
         return result.toString();
     }
@@ -2126,7 +2126,7 @@ public class SoftwareParser extends AbstractParser {
 
                 // conservative check, minimal well-formedness of the content for URL
                 if (clusterLabel.equals(SoftwareTaggingLabels.SOFTWARE_URL)) {
-                    if (SoftwareAnalyzer.DELIMITERS.indexOf(clusterContent) != -1 ||
+                    if (SoftwareAnalyzer.DELIMITERS.contains(clusterContent) ||
                         SoftwareLexicon.getInstance().isEnglishStopword(clusterContent) ||
                         FeatureFactory.getInstance().test_number(clusterContent) ||
                         clusterContent.replace("\n", "").equals("//")) {
@@ -2491,7 +2491,7 @@ public class SoftwareParser extends AbstractParser {
             //tei = restoreDomParserAttributeBug(tei);
 
         } catch (final Exception exp) {
-            logger.error("An error occured while processing the following XML file: "
+            logger.error("An error occurred while processing the following XML file: "
                 + file.getPath(), exp);
         }
 
@@ -2518,7 +2518,7 @@ public class SoftwareParser extends AbstractParser {
             //tei = restoreDomParserAttributeBug(tei);
 
         } catch (final Exception exp) {
-            logger.error("An error occured while processing the following XML file: "
+            logger.error("An error occurred while processing the following XML file: "
                 + file.getPath(), exp);
         }
 
@@ -2552,7 +2552,7 @@ public class SoftwareParser extends AbstractParser {
             tei = FileUtils.readFileToString(new File(newFilePath), UTF_8);
 
         } catch (final Exception exp) {
-            logger.error("An error occured while processing the following XML file: " + file.getAbsolutePath(), exp);
+            logger.error("An error occurred while processing the following XML file: " + file.getAbsolutePath(), exp);
         } finally {
             if (newFilePath != null) {
                 File newFile = new File(newFilePath);
@@ -2853,7 +2853,7 @@ public class SoftwareParser extends AbstractParser {
             }
         } catch (Exception e) {
             throw new GrobidException(
-                "An exception occured while running consolidation on bibliographical references.", e);
+                "An exception occurred while running consolidation on bibliographical references.", e);
         }
 
         // propagate the bib. ref. to the entities corresponding to the same software name without bib. ref.

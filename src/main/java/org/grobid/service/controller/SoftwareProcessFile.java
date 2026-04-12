@@ -406,9 +406,11 @@ public class SoftwareProcessFile {
                 }
                 json.append("], \"references\":[");
 
-                List<BibDataSet> teiBibDataSet = extractionResult != null ? extractionResult.getRight() : null;
-                if (teiBibDataSet != null && teiBibDataSet.size() > 0) {
-                    SoftwareServiceUtil.serializeReferences(json, teiBibDataSet, extractedEntities);
+                if (extractionResult != null) {
+                    List<BibDataSet> bibDataSet = extractionResult.getRight();
+                    if (bibDataSet != null && bibDataSet.size() > 0) {
+                        SoftwareServiceUtil.serializeReferences(json, bibDataSet, extractedEntities);
+                    }
                 }
 
                 json.append("], \"runtime\" :" + (end - start));
