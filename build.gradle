@@ -388,7 +388,7 @@ task downloadModelsGit(dependsOn: copyModels) {
         } else {
             injected.execOps.exec {
                 commandLine 'git', 'clone',
-                    'https://huggingface.co/sciencialab/software-mentions-models',
+                    'https://huggingface.co/SoFairOA/software-mentions-models',
                     targetDir.absolutePath
             }
         }
